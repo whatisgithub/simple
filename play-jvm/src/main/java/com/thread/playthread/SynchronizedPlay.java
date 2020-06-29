@@ -1,6 +1,6 @@
 package com.thread.playthread;
 
-public class SyncHronizedPlay {
+public class SynchronizedPlay {
     private int count = 0;
     private Object lockObject = new Object();
 
@@ -13,7 +13,7 @@ public class SyncHronizedPlay {
 
     public static void main(String[] args) {
 
-        final SyncHronizedPlay syncHronizedPlay = new SyncHronizedPlay();
+        final SynchronizedPlay syncHronizedPlay = new SynchronizedPlay();
         for (int i = 0; i < 10; i++) {
             new Thread(new Runnable() {
                 @Override
