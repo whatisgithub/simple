@@ -1,4 +1,4 @@
-package com.com.countdownlatch;
+package com.com.com.jucplay;
 
 import org.omg.PortableServer.THREAD_POLICY_ID;
 

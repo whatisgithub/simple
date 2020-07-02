@@ -1,4 +1,4 @@
-package com.com.reentrantLock;
+package com.com.com.jucplay;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
